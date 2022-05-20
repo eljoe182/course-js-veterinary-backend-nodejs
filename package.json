@@ -1,0 +1,26 @@
+{
+  "name": "veterinary-backend",
+  "version": "1.0.0",
+  "description": "Exercise for the backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Joise Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "2.8.5",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "6.3.3",
+    "nodemailer": "6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.16"
+  }
+}
